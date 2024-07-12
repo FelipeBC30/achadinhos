@@ -1,0 +1,883 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Links de Afiliado</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fafafa; /* Fundo principal claro */
+            color: #444444; /* Texto principal escuro */
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #e74c3c; /* Vermelho primário */
+        }
+        #search-bar {
+            margin: 20px 0;
+        }
+        input[type="text"] {
+            padding: 15px;
+            font-size: 18px;
+            width: 80%;
+            max-width: 500px;
+            border: 2px solid #ddd;
+            border-radius: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .link-container {
+            display: none;
+            background-color: #ffffff; /* Fundo dos containers */
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            max-width: 800px;
+            text-align: center; /* Centralizar o conteúdo */
+        }
+        .link-container:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+        .product-image {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto; /* Centralizar a imagem */
+        }
+        .product-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0;
+            color: #444444; /* Texto principal escuro */
+        }
+        .product-description {
+            font-size: 16px;
+            margin: 10px 0;
+            color: #555555; /* Texto secundário */
+        }
+        a {
+            text-decoration: none;
+            color: #ffffff; /* Texto do botão */
+            background-color: #e74c3c; /* Vermelho primário */
+            font-size: 18px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+            border: 2px solid #e74c3c; /* Vermelho primário */
+            padding: 10px 20px;
+            border-radius: 25px;
+            transition: background-color 0.3s, color 0.3s;
+            margin-left: auto;
+            margin-right: auto; /* Centralizar o botão */
+        }
+        a:hover {
+            background-color: #d35400; /* Laranja queimado */
+            border-color: #d35400; /* Laranja queimado */
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 14px;
+            color: #777777; /* Texto do rodapé */
+        }
+    </style>
+    <script>
+        function searchLinks() {
+            let input = document.getElementById('searchInput').value.toLowerCase();
+            let containers = document.getElementsByClassName('link-container');
+            for (let i = 0; i < containers.length; i++) {
+                let name = containers[i].getElementsByClassName('product-name')[0].innerText.toLowerCase();
+                if (name.includes(input)) {
+                    containers[i].style.display = 'block';
+                } else {
+                    containers[i].style.display = 'none';
+                }
+            }
+        }
+        window.onload = function() {
+            let containers = document.getElementsByClassName('link-container');
+            for (let i = 0; i < containers.length; i++) {
+                containers[i].style.display = 'block';
+            }
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Meus Links de Afiliado</h1>
+            <div id="search-bar">
+                <input type="text" id="searchInput" onkeyup="searchLinks()" placeholder="Buscar produtos...">
+            </div>
+        </header>
+
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S3bfcd6bc82824a8eb0327578b350992cB.jpg" alt="Mochila De Viagem De Grande Capacidade, Bolsa Feminina, Saco De Terno Dobrável, Totes De Roupas Impermeáveis" class="product-image">
+        <div class="product-name">Mochila De Viagem De Grande Capacidade, Bolsa Feminina, Saco De Terno Dobrável, Totes De Roupas Impermeáveis</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_opq0LVE" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sd5769e94d0c14ee7b896679f7fde6d6f0.jpg" alt="Dente Jóias Ornamentos com Caixa, Dentes Gemas, Beleza Diamante, Cristal Dental, Decoração de Moda, 3Pcs" class="product-image">
+        <div class="product-name">Dente Jóias Ornamentos com Caixa, Dentes Gemas, Beleza Diamante, Cristal Dental, Decoração de Moda, 3Pcs</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_op0sUn6" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sa4b0ba0d887d4937b70dc03b0a1c8738e.jpg" alt="Dental Diamante Gems para Decoração, Strass Dentadura Beleza, Várias Formas, Aço Dentadura, Dentadura Dentária, Acrílico, 3 PCs, 4PCs" class="product-image">
+        <div class="product-name">Dental Diamante Gems para Decoração, Strass Dentadura Beleza, Várias Formas, Aço Dentadura, Dentadura Dentária, Acrílico, 3 PCs, 4PCs</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_okx9kra" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S5c492fd3ad6e4979b53f389f75548757W.jpg" alt="Bolsa de armazenamento grande de PU dobrável para mulheres, bolsa de bagagem de alta capacidade, organizador multifuncional, viagem, esporte, ao ar livre, moda, 2022" class="product-image">
+        <div class="product-name">Bolsa de armazenamento grande de PU dobrável para mulheres, bolsa de bagagem de alta capacidade, organizador multifuncional, viagem, esporte, ao ar livre, moda, 2022</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oC8sx00" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S99f4aa256eb4420d94f4cb945e8fd408q.jpg" alt="Cristal redondo dente gemas, Higiene Oral, Clareamento dos dentes, Moda" class="product-image">
+        <div class="product-name">Cristal redondo dente gemas, Higiene Oral, Clareamento dos dentes, Moda</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oETzS5W" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S08e7a48c523d49399997c40ee409bf37y.jpg" alt="Mochila de viagem de grande capacidade Bolsa dobrável feminina Totes de roupas impermeáveis Saco de ginástica, Saco de ginástica ao ar livre" class="product-image">
+        <div class="product-name">Mochila de viagem de grande capacidade Bolsa dobrável feminina Totes de roupas impermeáveis Saco de ginástica, Saco de ginástica ao ar livre</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oFsMisU" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S2a2ece76d9074365b3e83ba359443506D.jpg" alt="Caixa sem fio CarPlay Ai Plus, 8 + 128G, Android 13, Auto, CPU 8-Core, QCM6125, apto para VW, Audi, Kia, Fiat" class="product-image">
+        <div class="product-name">Caixa sem fio CarPlay Ai Plus, 8 + 128G, Android 13, Auto, CPU 8-Core, QCM6125, apto para VW, Audi, Kia, Fiat</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_onPIUi0" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S0e5880b863db40bfb49e40df6036cf2b5.jpg" alt="Bateria de carro Carregador Automático Chumbo Ácido Molhado Seco Bateria Display Digital Carregador de Bateria Reparação Pulso 12V 10A / 24V 5A" class="product-image">
+        <div class="product-name">Bateria de carro Carregador Automático Chumbo Ácido Molhado Seco Bateria Display Digital Carregador de Bateria Reparação Pulso 12V 10A / 24V 5A</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oFectsu" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S4a9c76b41e1647ae8443af2b4a169242K.jpg" alt="Saco de armazenamento de grande capacidade PU para mulheres, bagagem de mão, bolsa de viagem, multifuncional, novo" class="product-image">
+        <div class="product-name">Saco de armazenamento de grande capacidade PU para mulheres, bagagem de mão, bolsa de viagem, multifuncional, novo</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_opGRuZW" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S8231f4c0b9bd4784864e7412dc0586068.jpg" alt="Ampown-XU10 Console de jogos portátil, tela IPS, bateria 3000mAh, sistema Linux, jogos retro embutidos, console de videogame portátil, 3,5 polegadas" class="product-image">
+        <div class="product-name">Ampown-XU10 Console de jogos portátil, tela IPS, bateria 3000mAh, sistema Linux, jogos retro embutidos, console de videogame portátil, 3,5 polegadas</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_op7msFa" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Scc55e3d41bc84e7c92a8c6742d70d793m.jpg" alt="Desidratador termostático inteligente, secador de frutas, duradouro, máquina de secagem, legumes, carne, desidratado, Pet Snack" class="product-image">
+        <div class="product-name">Desidratador termostático inteligente, secador de frutas, duradouro, máquina de secagem, legumes, carne, desidratado, Pet Snack</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_opEkhd2" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Scd39309abfdf4b81814155418c5fe2cef.jpg" alt="Máquina automática da fragrância do aroma com função do temporizador, óleo essencial, difusor do aroma para a casa, o hotel, o escritório, 160ml" class="product-image">
+        <div class="product-name">Máquina automática da fragrância do aroma com função do temporizador, óleo essencial, difusor do aroma para a casa, o hotel, o escritório, 160ml</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_ombteb2" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sc368ba0dabd143e2a65a4adf01dc3665J.jpg" alt="Kemei-Cordless Elétrica Cabelo Trimmer para Barber, Zero Gapped Carving Clipper, Finish Máquina de Corte, Detailer Profissional, 0 milímetros, 2299" class="product-image">
+        <div class="product-name">Kemei-Cordless Elétrica Cabelo Trimmer para Barber, Zero Gapped Carving Clipper, Finish Máquina de Corte, Detailer Profissional, 0 milímetros, 2299</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oEtW7KU" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sfd3433a2c7cc487e98acb26774088f89S.jpg" alt="Barbeador elétrico dos homens para homens Máquina de barbear SOEYE Barba Trimmer 3D Floating Blade Lavável USB Recarregável Máquina de corte de cabelo" class="product-image">
+        <div class="product-name">Barbeador elétrico dos homens para homens Máquina de barbear SOEYE Barba Trimmer 3D Floating Blade Lavável USB Recarregável Máquina de corte de cabelo</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oFG6dCC" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S7cfeb882257d46ec9abd6da0c6c8ca79V.jpg" alt="Exaustor silencioso para casa, duto de tubulação inline, extrator de banheiro, ventilador de cozinha, ventilador de parede, 4 ", 5", 6 ", 220V" class="product-image">
+        <div class="product-name">Exaustor silencioso para casa, duto de tubulação inline, extrator de banheiro, ventilador de cozinha, ventilador de parede, 4 ", 5", 6 ", 220V</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oBLJ20k" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/H264dc4fd4fa240b0857c2899643fd0bbh.jpg" alt="ATWFS-Gerador De Ozônio, Limpador De Ar, Desinfecção De Ozônio, Ozonizador De Esterilização, Purificador, Limpeza De Formaldeído, 220V, 60G" class="product-image">
+        <div class="product-name">ATWFS-Gerador De Ozônio, Limpador De Ar, Desinfecção De Ozônio, Ozonizador De Esterilização, Purificador, Limpeza De Formaldeído, 220V, 60G</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_o2EaxV6" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S1226b47c764a4f819e8e00ef9b2bfdd0f.jpg" alt="Robô Aspirador de Pó ABIR X8, Navegação Lidar a Laser, Potência de Sucção 5000pa, Mapa de Múltiplas Áreas, Lâmpada UV, Esfregão Úmido em Forma de Y, App com Zonas Restritas" class="product-image">
+        <div class="product-name">Robô Aspirador de Pó ABIR X8, Navegação Lidar a Laser, Potência de Sucção 5000pa, Mapa de Múltiplas Áreas, Lâmpada UV, Esfregão Úmido em Forma de Y, App com Zonas Restritas</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oCJAzqG" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sa97d74507e5747829c9207a226673763l.jpg" alt="Cooseon-frigobar com espelho, maquiagem beleza, skincare geladeira, 4l, ac/dc, refrigeração aquecida, para carro" class="product-image">
+        <div class="product-name">Cooseon-frigobar com espelho, maquiagem beleza, skincare geladeira, 4l, ac/dc, refrigeração aquecida, para carro</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_om6KjMu" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S9f3b8336a0344a32a06f516d1876a995c.png" alt="Panela elétrica multifuncional, panela multifuncional, mini máquina de waffle, para sanduíche, bolo e café da manhã" class="product-image">
+        <div class="product-name">Panela elétrica multifuncional, panela multifuncional, mini máquina de waffle, para sanduíche, bolo e café da manhã</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oDecXI8" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S5cb8b205b7be4ba8a57d1917d2579f77X.jpg" alt="Difusor De Fragrância De Quarto Montado Na Parede, ambientador Do Hotel, Difusor De Óleos Essenciais De Bluetooth, Ventilador Embutido, Cheiro Elétrico Para Casa" class="product-image">
+        <div class="product-name">Difusor De Fragrância De Quarto Montado Na Parede, ambientador Do Hotel, Difusor De Óleos Essenciais De Bluetooth, Ventilador Embutido, Cheiro Elétrico Para Casa</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oEE4JBO" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/A70cdf23b6dca4c7b9098400edd10d40dl.jpg" alt="Robô Aspirador Liectroux G7 Aspira Passa Pano Base Autolimpante Controle via Aplicativo Navegação a Laser Armazena Mapas" class="product-image">
+        <div class="product-name">Robô Aspirador Liectroux G7 Aspira Passa Pano Base Autolimpante Controle via Aplicativo Navegação a Laser Armazena Mapas</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oEJAAJa" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sa9150c9e1d3a44e38382043f7b6df906Z.jpg" alt="Frigideira Elétrica, Omelete Maker, Egg Steamer, Fogão De Ovos, Mini Frigideira Plug-in De Ovos, Máquina Automática De Café Da Manhã" class="product-image">
+        <div class="product-name">Frigideira Elétrica, Omelete Maker, Egg Steamer, Fogão De Ovos, Mini Frigideira Plug-in De Ovos, Máquina Automática De Café Da Manhã</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oBq90iY" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sc358ceb032d34ad889dec361cefda32d9.jpg" alt="（Código promocional : AEGG99) Lilin XR500 robô aspirador de pó, navegação a laser lidar, vários andares mapas, zona de limpeza, área restrita configuração para casa tapete lava,Voz em português,6500pa sucção" class="product-image">
+        <div class="product-name">（Código promocional : AEGG99) Lilin XR500 robô aspirador de pó, navegação a laser lidar, vários andares mapas, zona de limpeza, área restrita configuração para casa tapete lava,Voz em português,6500pa sucção</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oDIn7Ug" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S3d53c661b736415fbe00910bff3d30b1H.jpg" alt="Kemei-Cordless Elétrica Cabelo Trimmer para Barber, Zero Gapped Carving Clipper, Finish Máquina de Corte, Detailer Profissional, 0 milímetros, 2299" class="product-image">
+        <div class="product-name">Kemei-Cordless Elétrica Cabelo Trimmer para Barber, Zero Gapped Carving Clipper, Finish Máquina de Corte, Detailer Profissional, 0 milímetros, 2299</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oD1Kn5w" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S27609a592b394b0888c96286a5747cbbp.jpg" alt="Microhoo-Ar Condicionado Portátil Fan Cooler, Aromaterapia Difusor de Óleo Essencial, Umidificador De Refrigeração Rápida, Doméstico, 1000ml" class="product-image">
+        <div class="product-name">Microhoo-Ar Condicionado Portátil Fan Cooler, Aromaterapia Difusor de Óleo Essencial, Umidificador De Refrigeração Rápida, Doméstico, 1000ml</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_omE8ngg" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S9883e116cd8b43b69fd1ae5710bc9c78p.jpg" alt="Xiaomi Youpin-Tapete de banho super absorvente, Tapete de banheiro antiderrapante, Tapete de chuveiro de secagem rápida, Tapetes de cozinha" class="product-image">
+        <div class="product-name">Xiaomi Youpin-Tapete de banho super absorvente, Tapete de banheiro antiderrapante, Tapete de chuveiro de secagem rápida, Tapetes de cozinha</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oDlLzfm" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S4457fb466143491482b5ce7491cb5812q.jpg" alt="Secador de roupa elétrico dobrado para casa Cremalheira de secagem inteligente Secador ultravioleta Máquina de viagem portátil Secador de ar quente 220V, 110V" class="product-image">
+        <div class="product-name">Secador de roupa elétrico dobrado para casa Cremalheira de secagem inteligente Secador ultravioleta Máquina de viagem portátil Secador de ar quente 220V, 110V</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_okaNbeG" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S0852bf967ff44c89973a2ec0c5fbac61d.jpg" alt="ALTHY-Água Rica em Hidrogênio Gerador Garrafa Cup, DuPont SPE PEM Câmara Dupla Fabricante lonizer - H2 Dispositivo de inalação" class="product-image">
+        <div class="product-name">ALTHY-Água Rica em Hidrogênio Gerador Garrafa Cup, DuPont SPE PEM Câmara Dupla Fabricante lonizer - H2 Dispositivo de inalação</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_ok7INYs" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sdabe17f1e7044a4484ac4753698ccfef3.jpg" alt="ABIR R30 Robot Aspirador de pó com doca auto-vazia, Sucção 6500PA, Mapear vários pisos, Limpeza personalizada de sala seca e molhada" class="product-image">
+        <div class="product-name">ABIR R30 Robot Aspirador de pó com doca auto-vazia, Sucção 6500PA, Mapear vários pisos, Limpeza personalizada de sala seca e molhada</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oEMpl9w" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S974d10bf72f7491a842d756f5eb1ea666.jpg" alt="WMARK-NG-130 Ferramenta de barbeiro masculina profissional, carregamento sem fio, interface tipo C com base, cortador elétrico, exclusiva" class="product-image">
+        <div class="product-name">WMARK-NG-130 Ferramenta de barbeiro masculina profissional, carregamento sem fio, interface tipo C com base, cortador elétrico, exclusiva</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_olRRIOY" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sc9851e49db25457982ad6ed08247cba3N.jpg" alt="WMARK-Transparente Oil Head Hair Clipper, Especial para Carregamento a Quente, Salão, NG-108S" class="product-image">
+        <div class="product-name">WMARK-Transparente Oil Head Hair Clipper, Especial para Carregamento a Quente, Salão, NG-108S</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_olpKkfK" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S7017ecb5676c4c8c979ee1bb97af31ccG.jpg" alt="WMARK-Transparente Oil Cabeça Cabelo Clipper, cisalhamento elétrico, Push, NG-108PRO, bem vendido" class="product-image">
+        <div class="product-name">WMARK-Transparente Oil Cabeça Cabelo Clipper, cisalhamento elétrico, Push, NG-108PRO, bem vendido</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_om1UaQg" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S6e2ae5e4acac4ffdadbfeea328b82101z.jpg" alt="Smart Home Difusor De Óleo Essencial, Máquina De Aromaterapia De Fragrâncias, Controle Bluetooth, Usado Em Vários Lugares, Cobrindo 1000m ³" class="product-image">
+        <div class="product-name">Smart Home Difusor De Óleo Essencial, Máquina De Aromaterapia De Fragrâncias, Controle Bluetooth, Usado Em Vários Lugares, Cobrindo 1000m ³</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_omZOPLq" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S0add82622d1f4fb78c8f1d0061656c06x.jpg" alt="Jucai-Pro profissional elétrico cortador de cabelo, ultra-fino, gravação 0 pitch, corte elétrico, 7200rpm, carregamento sem fio, cabeleireiro" class="product-image">
+        <div class="product-name">Jucai-Pro profissional elétrico cortador de cabelo, ultra-fino, gravação 0 pitch, corte elétrico, 7200rpm, carregamento sem fio, cabeleireiro</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oCMtKOu" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Safaba6af8e894967867ae187bb0f3130b.jpg" alt="Barbeador elétrico profissional para homens, barbeiros pop, Double Foil Shaver, máquina de corte de cabelo sem fio USB, 11000 RPM, P620" class="product-image">
+        <div class="product-name">Barbeador elétrico profissional para homens, barbeiros pop, Double Foil Shaver, máquina de corte de cabelo sem fio USB, 11000 RPM, P620</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_omliGNq" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S280dc1bb558b4bbfad56082162b13bb3t.jpg" alt="XIAOMI-MIJIA abridor elétrico automático do vinho, tampão de garrafa, máquina saca-rolhas, novo, 2023" class="product-image">
+        <div class="product-name">XIAOMI-MIJIA abridor elétrico automático do vinho, tampão de garrafa, máquina saca-rolhas, novo, 2023</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oo2Nnt6" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S94581f0fdf004b2ea52c9ec268a782f5w.jpg" alt="Multifunction Electric Breakfast Cake Maker, máquina de pão, Household Donut Maker, 8-Hole, 850W, 220V, 50Hz" class="product-image">
+        <div class="product-name">Multifunction Electric Breakfast Cake Maker, máquina de pão, Household Donut Maker, 8-Hole, 850W, 220V, 50Hz</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oobvCdA" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S470924f90a6847bdad8c4ac4ecb4d526g.jpg" alt="Namste 160ml elétrico óleo essencial aroma difusor aroma máquina de fragrância spray automático óleo aroma para hotel escritório difusor de óleos essenciais aromatizador de ambiente 300m³ difusor de aromas profissional" class="product-image">
+        <div class="product-name">Namste 160ml elétrico óleo essencial aroma difusor aroma máquina de fragrância spray automático óleo aroma para hotel escritório difusor de óleos essenciais aromatizador de ambiente 300m³ difusor de aromas profissional</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oE9H9VK" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S31ed265f12314e2796af5091be61696a4.jpg" alt="(Código promocional: HOT888)Robô Lavador de Janelas ABIR WD8, Pulverização de Água Dupla, Memória Inteligente, Sucção a Vácuo de Alta Potência, Sensor a Laser, Robô de Limpeza de Vidros Domésticos, Controle por APP" class="product-image">
+        <div class="product-name">(Código promocional: HOT888)Robô Lavador de Janelas ABIR WD8, Pulverização de Água Dupla, Memória Inteligente, Sucção a Vácuo de Alta Potência, Sensor a Laser, Robô de Limpeza de Vidros Domésticos, Controle por APP</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oBoGuDA" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S15ada0899d114351afa20285bb464aa8I.png" alt="Wancle-Fogão a vácuo à prova d'água com display digital, fogão Sous Vide, Circulador de imersão LCD Touch, cozimento preciso, IPX7, 1100W" class="product-image">
+        <div class="product-name">Wancle-Fogão a vácuo à prova d'água com display digital, fogão Sous Vide, Circulador de imersão LCD Touch, cozimento preciso, IPX7, 1100W</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_opsDDdw" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Se3ad8941175c44a6949df9430d6ddd9dC.jpg" alt="POP-Professional Electric Double Foil Shaver para homens, aparador de barba, máquina de corte de cabelo USB, 11000 RPM, P620" class="product-image">
+        <div class="product-name">POP-Professional Electric Double Foil Shaver para homens, aparador de barba, máquina de corte de cabelo USB, 11000 RPM, P620</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_olSbyUM" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sc564f4771b8d4607872c8a4df4e3dd077.jpg" alt="(Código promocional: BR2200)Robô aspirador de pó ABIR X8, navegação a laser lidar, 6500pa sucção, multi-assoalho mapa, Esterilização UV, y forma molhado esfregar, app zonas não-go, Exclusivo Sensor TOF" class="product-image">
+        <div class="product-name">(Código promocional: BR2200)Robô aspirador de pó ABIR X8, navegação a laser lidar, 6500pa sucção, multi-assoalho mapa, Esterilização UV, y forma molhado esfregar, app zonas não-go, Exclusivo Sensor TOF</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_omJdI8G" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Se890e43e3fea4bd0b13225f069be0c54R.jpg" alt="Porta-Cápsulas De Café, Adequado Para HIBREW H2A H2B Máquina De Café, Café Em Pó Comp" class="product-image">
+        <div class="product-name">Porta-Cápsulas De Café, Adequado Para HIBREW H2A H2B Máquina De Café, Café Em Pó Comp</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oEXflHK" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sb21fc251ec104b2d85c4832febe132dcm.jpg" alt="Frigideira Antiaderente MultiCooker Elétrica, 220V Máquina de Cozinha Doméstica, Churrasco, Frito, Bife, Peixe, Omelete" class="product-image">
+        <div class="product-name">Frigideira Antiaderente MultiCooker Elétrica, 220V Máquina de Cozinha Doméstica, Churrasco, Frito, Bife, Peixe, Omelete</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_olQJKYk" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sb528d6a731914dee9b64c0d1104c0226n.jpg" alt="Máquina elétrica do corte do cabelo para homens, Clippers profissionais, Kulilang Madeshow, cortador do cabelo, aparador do cabelo, barbearia, 7000 RPM" class="product-image">
+        <div class="product-name">Máquina elétrica do corte do cabelo para homens, Clippers profissionais, Kulilang Madeshow, cortador do cabelo, aparador do cabelo, barbearia, 7000 RPM</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_onyfgte" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S3144be7ff19d42a4be4240e4be7514dcS.jpg" alt="Tampa do ciclone para aspiradores, Separador de poeira Remoção de poeira Coletor de poeira Filtro de madeira DIY" class="product-image">
+        <div class="product-name">Tampa do ciclone para aspiradores, Separador de poeira Remoção de poeira Coletor de poeira Filtro de madeira DIY</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_op8GXbW" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Se8c91c5ffdff4309bf195b411378ec6df.jpg" alt="XIAOMI MIJIA-Handheld Garment Steamer para roupas, Ferro portátil, Limpador a vapor, Casa, Elétrico, Pendurado, Remoção de ácaros" class="product-image">
+        <div class="product-name">XIAOMI MIJIA-Handheld Garment Steamer para roupas, Ferro portátil, Limpador a vapor, Casa, Elétrico, Pendurado, Remoção de ácaros</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_okB6C44" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S039e91a37c5b46d0b1f4d1a8e3903523s.jpg" alt="( Código promocional: AEGG99) Lilin XR500 robô aspirador de pó úmido e seco, Sistema Lidar Laser LDS, vários andares mapas, zona de limpeza, área restrita configuração para casa tapete lavagem,Voz em português,6500Pa" class="product-image">
+        <div class="product-name">( Código promocional: AEGG99) Lilin XR500 robô aspirador de pó úmido e seco, Sistema Lidar Laser LDS, vários andares mapas, zona de limpeza, área restrita configuração para casa tapete lavagem,Voz em português,6500Pa</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_okjeRlw" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sb90b3b04ed3646a6895996595e1736ea8.jpg" alt="Kemei-KM-2299 Aparador De Cabelo Para Homens, Haircut Machine, Hair Clipper, Cortador Profissional, Máquina De Corte" class="product-image">
+        <div class="product-name">Kemei-KM-2299 Aparador De Cabelo Para Homens, Haircut Machine, Hair Clipper, Cortador Profissional, Máquina De Corte</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oCyy1k0" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/H20e02437e4164adab62dc1441d19c3a2O.jpg" alt="Gerador de água rica em hidrogênio max 3000ppb, 3 em 1 uso (respiração com tubo) dupont spe + pem, câmera dupla h2 garrafa de água eletrólise" class="product-image">
+        <div class="product-name">Gerador de água rica em hidrogênio max 3000ppb, 3 em 1 uso (respiração com tubo) dupont spe + pem, câmera dupla h2 garrafa de água eletrólise</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oDugnWy" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sae6435c0848642f5b199e4e694b0c264j.jpg" alt="Aparador de cabelo elétrico sem fio profissional para homens, barbeador, máquina de corte, barbeiro haircut estilo clipper" class="product-image">
+        <div class="product-name">Aparador de cabelo elétrico sem fio profissional para homens, barbeador, máquina de corte, barbeiro haircut estilo clipper</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_olj45AU" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Se3a3133688844877b82c90d719c0542eW.jpg" alt="Hair Clippers para Homens, Aparador Elétrico De Cabelo, Máquina De Corte De Cabelo Sem Fio Para Barbeiros, Ferramentas De Corte De Cabelo" class="product-image">
+        <div class="product-name">Hair Clippers para Homens, Aparador Elétrico De Cabelo, Máquina De Corte De Cabelo Sem Fio Para Barbeiros, Ferramentas De Corte De Cabelo</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oB0PaL2" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S4f618ef3ab384bcbb9958a37831290faz.png" alt="Purificador de água doméstico, 400 GPD RO Membrana, ULP3013-400" class="product-image">
+        <div class="product-name">Purificador de água doméstico, 400 GPD RO Membrana, ULP3013-400</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_omQZjaM" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S189096281c7c4fac8059788e4db4dd2fP.jpg" alt="XIAOMI-MIJIA Chaleira Elétrica para Casa, Desligar Inteligente Água, Bule de Aço Inoxidável para Chá e Café, 220V, 1A, 1800W" class="product-image">
+        <div class="product-name">XIAOMI-MIJIA Chaleira Elétrica para Casa, Desligar Inteligente Água, Bule de Aço Inoxidável para Chá e Café, 220V, 1A, 1800W</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oluguuk" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S49d5e2b6e4ec4ddaac98c3a93e465f6eV.jpg" alt="WMARKNG-222 Electric Clipper cabelo, cabeça de óleo, gradual, carregamento, cabeleireiro, cabeleireiro, 7500 RPM, venda quente" class="product-image">
+        <div class="product-name">WMARKNG-222 Electric Clipper cabelo, cabeça de óleo, gradual, carregamento, cabeleireiro, cabeleireiro, 7500 RPM, venda quente</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oBqiCyU" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S982c954c9af141c9b5ac746a0c4ebaa72.png" alt="Mini Grill Elétrico Donut Maker, Máquina de Pão Portátil, Aparelho de cozinha antiaderente, Uso Doméstico, 110 V, 220V, 7-Hole, 1200W, UE, US Plug" class="product-image">
+        <div class="product-name">Mini Grill Elétrico Donut Maker, Máquina de Pão Portátil, Aparelho de cozinha antiaderente, Uso Doméstico, 110 V, 220V, 7-Hole, 1200W, UE, US Plug</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_olDpsXS" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sf4f58950b0d44a848e741d0048b343ae6.jpg" alt="Mini ferro seco bonde Handheld, Dual-tensão, 30S calor, não-vapor, ferro do vestuário para a roupa, portátil, de pouco peso, curso, 120V, 220V" class="product-image">
+        <div class="product-name">Mini ferro seco bonde Handheld, Dual-tensão, 30S calor, não-vapor, ferro do vestuário para a roupa, portátil, de pouco peso, curso, 120V, 220V</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_ooe5888" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sb685c399c2db486cb36e5d7b1c2542faj.jpg" alt="NAMSTE-Hotel Perfume Oil, Óleos Essenciais para Difusor, Alta Concentração, Fragrância para Sala, Ambientador para Casa, Comercial, 100ml" class="product-image">
+        <div class="product-name">NAMSTE-Hotel Perfume Oil, Óleos Essenciais para Difusor, Alta Concentração, Fragrância para Sala, Ambientador para Casa, Comercial, 100ml</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oB92bys" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sb86de6d359014c559e3960b79c744b21H.png" alt="Garment Steamers 280ml Handheld Tecido Steamer 7 Furos 20 Segundos Fast-Heat 1500W Vestuário Steamer para Home Viajando Portátil" class="product-image">
+        <div class="product-name">Garment Steamers 280ml Handheld Tecido Steamer 7 Furos 20 Segundos Fast-Heat 1500W Vestuário Steamer para Home Viajando Portátil</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oEv2GlI" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S4310457ad2e440eaad398c5d5d3fd924I.jpg" alt="Aço inoxidável Ultrasonic Cleaner, Máquina de lavar ultra-som industrial, Temporizador digital, Aquecedor, Eletrodomésticos, 2 L, 3 L, 10 L, 30L" class="product-image">
+        <div class="product-name">Aço inoxidável Ultrasonic Cleaner, Máquina de lavar ultra-som industrial, Temporizador digital, Aquecedor, Eletrodomésticos, 2 L, 3 L, 10 L, 30L</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oCBLB5i" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Saa3b03a3170548d1b417b38d1cae9326h.jpg" alt="T9 Máquina de corte de cabelo elétrica para homens, aparador de cabelo, barba, aparador de pêlos do corpo" class="product-image">
+        <div class="product-name">T9 Máquina de corte de cabelo elétrica para homens, aparador de cabelo, barba, aparador de pêlos do corpo</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oDPH9Qk" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S868383eb01174876ac7248c1d72638d4t.jpg" alt="Umidificador Super Silencioso em Vaso de Woodgrain, USB, Cor, Luz noturna, Carro, Escritório, Casa, Holiday Gift for Friends, Novo, 2022" class="product-image">
+        <div class="product-name">Umidificador Super Silencioso em Vaso de Woodgrain, USB, Cor, Luz noturna, Carro, Escritório, Casa, Holiday Gift for Friends, Novo, 2022</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oFZZLRI" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Se0c401620cff4320bb7fee8e782c90d8D.jpg" alt="Turbofan Portátil de Mão, USB Recarregável, Bateria Ultra Longa, 200 Velocidades de Vento, Ajustável, Alta Velocidade, Mini Ventilador" class="product-image">
+        <div class="product-name">Turbofan Portátil de Mão, USB Recarregável, Bateria Ultra Longa, 200 Velocidades de Vento, Ajustável, Alta Velocidade, Mini Ventilador</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_omBBMbE" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sc41536369a074eff84c28e775213c7ecU.jpg" alt="XIAOMI-MIJIA Mini Liquidificador Portátil, Máquina Elétrica Juicer De Frutas, Espremedor De Laranja, Processador De Alimentos De Cozinha, Extrator De Suco, Casa, Mini" class="product-image">
+        <div class="product-name">XIAOMI-MIJIA Mini Liquidificador Portátil, Máquina Elétrica Juicer De Frutas, Espremedor De Laranja, Processador De Alimentos De Cozinha, Extrator De Suco, Casa, Mini</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_ooVSOOg" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/H7023fdf95ff041b1af65db8b974d62df0.jpg" alt="Pacote de vestuário Oxford impermeável masculino, sacos de ombro de grande capacidade para bagagem de bolso, bolsa de viagem de negócios Oxford, armazenamento XA76M" class="product-image">
+        <div class="product-name">Pacote de vestuário Oxford impermeável masculino, sacos de ombro de grande capacidade para bagagem de bolso, bolsa de viagem de negócios Oxford, armazenamento XA76M</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oDicHkg" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S346576061b494379ac97097f017fb27cL.jpg" alt="Aferidor a vácuo elétrico para alimentos secos e úmidos, Embalagem de cozinha, Selo de armazenamento de alimentos, Smart Touch Key, cortador embutido, faca" class="product-image">
+        <div class="product-name">Aferidor a vácuo elétrico para alimentos secos e úmidos, Embalagem de cozinha, Selo de armazenamento de alimentos, Smart Touch Key, cortador embutido, faca</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oBqcLzK" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S0d825c27882a4a4a8d2c098c1c3f4290K.jpg" alt="Ultrasonic High-Frequency Vibration Cleaners, 3 Gear 360 Graus Limpeza Máquina, Timing para Jóias, Chupeta, Maquiagem Ferramenta, Óculos" class="product-image">
+        <div class="product-name">Ultrasonic High-Frequency Vibration Cleaners, 3 Gear 360 Graus Limpeza Máquina, Timing para Jóias, Chupeta, Maquiagem Ferramenta, Óculos</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oC5gYmY" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sa13f625789ac4d9d9e065f41164dbff6p.jpg" alt="Ejetor de saliva dental, descartável, macio, flexível, longo, tipo fino, baixo volume, pontas de sucção, clínica odontológica, 25pcs, conjunto" class="product-image">
+        <div class="product-name">Ejetor de saliva dental, descartável, macio, flexível, longo, tipo fino, baixo volume, pontas de sucção, clínica odontológica, 25pcs, conjunto</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oCgThu0" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S3c25ac1e72cf4cc3811e95c1a7e3cd5cz.jpg" alt="Mochila de couro dobrável para homens e mulheres, mala de viagem impermeável, extra grande, bolsa de fim de semana portátil com sapato" class="product-image">
+        <div class="product-name">Mochila de couro dobrável para homens e mulheres, mala de viagem impermeável, extra grande, bolsa de fim de semana portátil com sapato</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oDzKJbe" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S958378c0b72d4aa9bfa8296d856defebI.jpg" alt="Moedor de Carne Elétrico Multifuncional, Triturador de Alimentos, Fatiador Vegetal, Processador, Eletrodomésticos de Cozinha, Aço inoxidável, 5L, 6S" class="product-image">
+        <div class="product-name">Moedor de Carne Elétrico Multifuncional, Triturador de Alimentos, Fatiador Vegetal, Processador, Eletrodomésticos de Cozinha, Aço inoxidável, 5L, 6S</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oomAJti" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/H03d8262b27c34624805c1ff3be2fc41di.jpg" alt="Car Battery Charger Test Tool Repair Kit, 12V, 7A, UE, EUA, UK Plug, Digital Smart Truck, Off Road, 4x4, Motocicleta, Acessórios Automotivos" class="product-image">
+        <div class="product-name">Car Battery Charger Test Tool Repair Kit, 12V, 7A, UE, EUA, UK Plug, Digital Smart Truck, Off Road, 4x4, Motocicleta, Acessórios Automotivos</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oDqV4b6" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S5567abc7c9cf4c659ad71faa8059f286w.jpg" alt="Saco de vestuário de couro PU para mulheres, letras personalizadas Carrry On, tamanho grande, PU dobrável Duffle Suit Bag para viagem" class="product-image">
+        <div class="product-name">Saco de vestuário de couro PU para mulheres, letras personalizadas Carrry On, tamanho grande, PU dobrável Duffle Suit Bag para viagem</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oCLA5Z6" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S06b58827b78449a39664e714a78eeeafk.jpg" alt="CarlinKit-Wireless CarPlay AI Box Plus, Android 13, GPS Embutido, Automático, Smart TV, Netflix, YouTube, Automático" class="product-image">
+        <div class="product-name">CarlinKit-Wireless CarPlay AI Box Plus, Android 13, GPS Embutido, Automático, Smart TV, Netflix, YouTube, Automático</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_onosDNa" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Saa227c1d07314a14bfee0f0a34b108dcb.jpg" alt="Limpador Ultrassônico Digital com Máquina de Lavar Roupa, Lavadora de Ultrassom para Jóias, Colar, Óculos, Relógio, Escova, 800ml, 35W" class="product-image">
+        <div class="product-name">Limpador Ultrassônico Digital com Máquina de Lavar Roupa, Lavadora de Ultrassom para Jóias, Colar, Óculos, Relógio, Escova, 800ml, 35W</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_omw7DcY" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sd2c10fb11d8543539bb99cd3b8938c0fa.jpg" alt="XIAOMI MIJIA-Handheld Garment Steamer, 2 Ferro, Home Electric Steam Cleaner, Portátil, Dobrável, Remoção de ácaros, Máquina de engomar plana, Novo" class="product-image">
+        <div class="product-name">XIAOMI MIJIA-Handheld Garment Steamer, 2 Ferro, Home Electric Steam Cleaner, Portátil, Dobrável, Remoção de ácaros, Máquina de engomar plana, Novo</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_on1Oj7e" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/H54ce15731dce4ab5bb68a2270ced709cn.jpg" alt="Módulo original, IKCM15F60GA, IKCM20F60GA, IKCM30F60GA, IGCM15F60GA, IGCM20F60GA, IGCM30F60GA, IGCM06F60GA, frete grátis, novo" class="product-image">
+        <div class="product-name">Módulo original, IKCM15F60GA, IKCM20F60GA, IKCM30F60GA, IGCM15F60GA, IGCM20F60GA, IGCM30F60GA, IGCM06F60GA, frete grátis, novo</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oFWkTyC" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S3b8d351e0ae24b47a0d750bdac0e3d04u.jpg" alt="Bomba Elétrica De Galão De água Distribuidor Automático De Garrafa De água Distribuidor De Bomba De água Recarregável Com Distribuidor De água Do Suporte" class="product-image">
+        <div class="product-name">Bomba Elétrica De Galão De água Distribuidor Automático De Garrafa De água Distribuidor De Bomba De água Recarregável Com Distribuidor De água Do Suporte</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oFqgrqy" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S6d6834660473413793ba77c37f0266deW.jpg" alt="Barbeador elétrico recarregável para homens, lavável, aparador de cabelo, corte, máquina de barbear, aparador de barba, seco, uso duplo" class="product-image">
+        <div class="product-name">Barbeador elétrico recarregável para homens, lavável, aparador de cabelo, corte, máquina de barbear, aparador de barba, seco, uso duplo</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oEtJNQ8" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sfd593be072a042bbafe5129c9a9769e7J.jpg" alt="Chaleira Elétrica Gooseneck, Cafeteira, Bule Inteligente, Controle de Temperatura, Aquecimento Rápido, 800ml, 1000W, 110V, 220V" class="product-image">
+        <div class="product-name">Chaleira Elétrica Gooseneck, Cafeteira, Bule Inteligente, Controle de Temperatura, Aquecimento Rápido, 800ml, 1000W, 110V, 220V</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oF1xBKk" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sb5534e10d2de4c6f9e1754ea20ba5660g.jpg" alt="Difusor do aroma com fã para dentro para a grande área, máquina fixada parede do perfume, entrada do hotel, fragrância home, 160ml" class="product-image">
+        <div class="product-name">Difusor do aroma com fã para dentro para a grande área, máquina fixada parede do perfume, entrada do hotel, fragrância home, 160ml</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oBYkxac" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S0f993dec1bd04bacb7fecfe921abf658U.jpg" alt="XIAOMI-MIJIA IPX7 Trimmer cabelo impermeável para homens, cabelo elétrico máquina de corte, profissional Clipper, Cordless Barber" class="product-image">
+        <div class="product-name">XIAOMI-MIJIA IPX7 Trimmer cabelo impermeável para homens, cabelo elétrico máquina de corte, profissional Clipper, Cordless Barber</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_onXnw7a" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/See40a7d41ce648aaa47ff909356b45ddS.jpg" alt="air friyer,air fryer promoção,do Brasil,presente,fritadeira eletrica air fryer,fritadeira elétrica air fryer frete grátis" class="product-image">
+        <div class="product-name">air friyer,air fryer promoção,do Brasil,presente,fritadeira eletrica air fryer,fritadeira elétrica air fryer frete grátis</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oFnwUY8" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sdc7b34fb093046ef9284c49d25406564h.jpg" alt="Máquinas de lavar dobráveis portáteis com secador Balde, pequena máquina de lavar, Viagem, Casa, Roupa interior, Sock, Grande, 13L" class="product-image">
+        <div class="product-name">Máquinas de lavar dobráveis portáteis com secador Balde, pequena máquina de lavar, Viagem, Casa, Roupa interior, Sock, Grande, 13L</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_onB7gEu" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Se37964837db74f789604504c8c41b26dq.jpg" alt="Difusor Automático De Aroma Para Casa, Difusor De Fragrância, Máquina De Perfume De Óleo Essencial, Aromatizante Automático, Função De Temporizador, Hotel, Quarto, 160ml" class="product-image">
+        <div class="product-name">Difusor Automático De Aroma Para Casa, Difusor De Fragrância, Máquina De Perfume De Óleo Essencial, Aromatizante Automático, Função De Temporizador, Hotel, Quarto, 160ml</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oFtABD2" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/See529243fac7409198dc0c0e88b2c72ew.jpg" alt="Máquina seladora a vácuo, seca, úmida, armazenamento de sacos, aferidor de ar, para armazenamento de alimentos e com Starter Kit" class="product-image">
+        <div class="product-name">Máquina seladora a vácuo, seca, úmida, armazenamento de sacos, aferidor de ar, para armazenamento de alimentos e com Starter Kit</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_ooorUuU" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sc44a9e60c270471cb3ce370bd6bc4c78T.jpg" alt="XIAOMI-MIJIA Sonic Escova Elétrica Cabeça, substituição Toothbrush Cabeças, T100, T300, T500, T500C, Original" class="product-image">
+        <div class="product-name">XIAOMI-MIJIA Sonic Escova Elétrica Cabeça, substituição Toothbrush Cabeças, T100, T300, T500, T500C, Original</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_omiyiMy" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S42299ac873dc43e9b6d5b6e025379cf37.jpg" alt="Grande Capacidade Eyelash Tool Storage Box, Eyelash Extension Tweezer Case, Ferramentas de maquiagem cosméticos, Lash Acessórios" class="product-image">
+        <div class="product-name">Grande Capacidade Eyelash Tool Storage Box, Eyelash Extension Tweezer Case, Ferramentas de maquiagem cosméticos, Lash Acessórios</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oEkycFS" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S6a6cbe0d5bc84460a40143bcb076e46f0.jpg" alt="BRDCLIP-Cabeça de corte substituível original para Madeshow, M10, M5 Hair Clipper, banhado a titânio, cerâmica, lâmina, 2020C" class="product-image">
+        <div class="product-name">BRDCLIP-Cabeça de corte substituível original para Madeshow, M10, M5 Hair Clipper, banhado a titânio, cerâmica, lâmina, 2020C</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_ooqcbD2" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/H21e91a19cf8049e48854da058d24c03dB.jpg" alt="Filtro de água substituto para samsung DA97-17376B 3 peças" class="product-image">
+        <div class="product-name">Filtro de água substituto para samsung DA97-17376B 3 peças</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oBX9zRA" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S0d395f1068ec4c4c9694ded0c8e21cb2f.jpg" alt="Baseus-Aspirador de carro sem fio, limpeza doméstica portátil, mini aparelho portátil, 6000Pa" class="product-image">
+        <div class="product-name">Baseus-Aspirador de carro sem fio, limpeza doméstica portátil, mini aparelho portátil, 6000Pa</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_ooGG2hI" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sc4d6bb1fd893462f845f71b5ec575f12n.jpg" alt="Chaleira Elétrica Gooseneck, Potenciômetro Inteligente de Controle de Temperatura, Aquecimento Rápido Forro de Aço Inoxidável 304, 110V, 220V, 1000ml, 1200W" class="product-image">
+        <div class="product-name">Chaleira Elétrica Gooseneck, Potenciômetro Inteligente de Controle de Temperatura, Aquecimento Rápido Forro de Aço Inoxidável 304, 110V, 220V, 1000ml, 1200W</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oBZjY0G" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S7e0a1630418a4b44a078555902367531L.jpg" alt="Mini máquina portátil da imprensa do calor do ferro, impressão do t-shirt, aquecimento fácil, etiqueta de DIY, carimbo quente, imprensa do calor, novo, 2023" class="product-image">
+        <div class="product-name">Mini máquina portátil da imprensa do calor do ferro, impressão do t-shirt, aquecimento fácil, etiqueta de DIY, carimbo quente, imprensa do calor, novo, 2023</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_opiVAbS" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S7356339a5199443da5abb867c22bbcd5q.jpg" alt="Dente Gem solto dental vara grânulos para as mulheres, cada projeto popular, 1 peça" class="product-image">
+        <div class="product-name">Dente Gem solto dental vara grânulos para as mulheres, cada projeto popular, 1 peça</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_omSMCpQ" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S99c3566702254c198dba36284b66230fq.jpg" alt="Kemei-Men's Electric Hair Clipper Kit, Máquina De Corte De Cabelo, Barbeador Profissional, Aparador De Cabelo, KM-2296, KM-2299, KM-1102" class="product-image">
+        <div class="product-name">Kemei-Men's Electric Hair Clipper Kit, Máquina De Corte De Cabelo, Barbeador Profissional, Aparador De Cabelo, KM-2296, KM-2299, KM-1102</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oCmk7va" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S2f90aa14ed5e4172a799c0757757c79a4.jpg" alt="Ajustável elétrico Burr moedor de café, cônico moinho de feijão, 28 precisos moer configuração, Wangle, 220V, 120V" class="product-image">
+        <div class="product-name">Ajustável elétrico Burr moedor de café, cônico moinho de feijão, 28 precisos moer configuração, Wangle, 220V, 120V</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_opL9wjS" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sb72ebf3fb6274774bb771207a75fbadb1.jpg" alt="Smart Aroma Difusor para Hotéis, Ambientador, Aromatizante Cobertura Difusor, Distribuidor de Cheiro Elétrico, Bluetooth, 300m ³" class="product-image">
+        <div class="product-name">Smart Aroma Difusor para Hotéis, Ambientador, Aromatizante Cobertura Difusor, Distribuidor de Cheiro Elétrico, Bluetooth, 300m ³</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_omOiLbq" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S9c453eccb5d14cde96370419b6e1e6c6k.jpg" alt="ALTHY-Copo De Garrafa De Gerador De Água De Hidrogênio, DuPont SPE e PEM, Fabricante De Câmara Dupla, lonizador, Tempos De Eletrólise, Dispositivo De Inalação H2" class="product-image">
+        <div class="product-name">ALTHY-Copo De Garrafa De Gerador De Água De Hidrogênio, DuPont SPE e PEM, Fabricante De Câmara Dupla, lonizador, Tempos De Eletrólise, Dispositivo De Inalação H2</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oEcYKIg" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S6ceb94aeeec34ed4b38a26307c34d107N.jpg" alt="Kemei-Professional substituição Foil e Cutter Blades Set, adequado para KM-TX1 Shaver, barbeadores elétricos originais" class="product-image">
+        <div class="product-name">Kemei-Professional substituição Foil e Cutter Blades Set, adequado para KM-TX1 Shaver, barbeadores elétricos originais</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oDhNdJO" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S2f90aa14ed5e4172a799c0757757c79a4.jpg" alt="Ajustável elétrico Burr moedor de café, cônico moinho de feijão, 28 precisos moer configuração, Wangle, 220V, 120V" class="product-image">
+        <div class="product-name">Ajustável elétrico Burr moedor de café, cônico moinho de feijão, 28 precisos moer configuração, Wangle, 220V, 120V</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oFcdG1I" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S37637e44890641db9c188f01f740ee59p.jpg" alt="RGB Flame Aroma Difusor Umidificador, USB, Desktop Simulation Light, Aromaterapia Purificador, Ar para quarto, 7 cores, Mais novo" class="product-image">
+        <div class="product-name">RGB Flame Aroma Difusor Umidificador, USB, Desktop Simulation Light, Aromaterapia Purificador, Ar para quarto, 7 cores, Mais novo</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_opLVS1O" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sfd93063e2fb04ff0aed6a2bfcd665179V.jpg" alt="Mochila de Viagem de Grande Capacidade, Bolsa Feminina, Mala Dobrável, Totes de Roupas Impermeáveis" class="product-image">
+        <div class="product-name">Mochila de Viagem de Grande Capacidade, Bolsa Feminina, Mala Dobrável, Totes de Roupas Impermeáveis</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oEQMD3m" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S53778caa4345453aa66fed7d2e5105baI.png" alt="Hipicok-moedor de carne elétrico triturador de alho, comida chopper, mini imprensa, vegetal chopper, espremedor, usb, cozinha gadgets" class="product-image">
+        <div class="product-name">Hipicok-moedor de carne elétrico triturador de alho, comida chopper, mini imprensa, vegetal chopper, espremedor, usb, cozinha gadgets</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oER1pXA" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sa4b0ba0d887d4937b70dc03b0a1c8738e.jpg" alt="Dental Crystal Gems para Decorações Orais, Ornamento de Metal, Vária Forma, Beleza, 3Pcs por Caixa" class="product-image">
+        <div class="product-name">Dental Crystal Gems para Decorações Orais, Ornamento de Metal, Vária Forma, Beleza, 3Pcs por Caixa</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_on9tfwy" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/Sb73dddeaaa4d40f6aebf2c9e58a1c3b0z.jpg" alt="Mini máquina de fazer donuts para crianças, superfície antiaderente, cor branca, eletrodomésticos, café da manhã, lanche, sobremesas, faz 7 donuts" class="product-image">
+        <div class="product-name">Mini máquina de fazer donuts para crianças, superfície antiaderente, cor branca, eletrodomésticos, café da manhã, lanche, sobremesas, faz 7 donuts</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_o2dQPPA" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S411e119ab0b44a8fbd5ce4f710218605H.jpg" alt="Profissional barbeiro cabelo Clipper, recarregável, Graffiti, acabamento elétrico máquina de corte, barba aparador, trabalho sem fio" class="product-image">
+        <div class="product-name">Profissional barbeiro cabelo Clipper, recarregável, Graffiti, acabamento elétrico máquina de corte, barba aparador, trabalho sem fio</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oCWEwBS" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S500581af8d2e4c1cbd1d4a22743586e9y.jpg" alt="Recarregável Hair Clipper e Aparador Set, Barbeiro, Salão, Household Hair Clipper, Barba Shaver, Cordless Hair Cutting Kit" class="product-image">
+        <div class="product-name">Recarregável Hair Clipper e Aparador Set, Barbeiro, Salão, Household Hair Clipper, Barba Shaver, Cordless Hair Cutting Kit</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oD7Gjhi" target="_blank">Comprar</a>
+    </div>
+    
+    <div class="link-container">
+        <img src="https://ae01.alicdn.com/kf/S6a0a1a2d656d4dce83d4b65080296146C.jpg" alt="Saco de viagem dobrável PU para mulheres Bagagem de mão de grande capacidade Organizador de viagem impermeável multifuncional Saco de armazenamento de roupa" class="product-image">
+        <div class="product-name">Saco de viagem dobrável PU para mulheres Bagagem de mão de grande capacidade Organizador de viagem impermeável multifuncional Saco de armazenamento de roupa</div>
+        <div class="product-description">Sem descrição disponível.</div>
+        <a href="https://s.click.aliexpress.com/e/_oDSDw5e" target="_blank">Comprar</a>
+    </div>
+    
+        <footer>
+            <p>&copy; 2024 Meus Links de Afiliado. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
